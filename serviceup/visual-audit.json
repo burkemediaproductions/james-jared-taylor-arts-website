@@ -1,0 +1,74 @@
+[
+  {
+    "width": 1440,
+    "route": "/",
+    "result": "matching DOM and section-size metrics",
+    "horizontal_overflow": false
+  },
+  {
+    "width": 1440,
+    "route": "about/",
+    "result": "matching DOM and section-size metrics",
+    "horizontal_overflow": false
+  },
+  {
+    "width": 1440,
+    "route": "current-work/paintings/",
+    "result": "matching DOM and section-size metrics",
+    "horizontal_overflow": false
+  },
+  {
+    "width": 1440,
+    "route": "blog/",
+    "result": "matching DOM and section-size metrics",
+    "horizontal_overflow": false
+  },
+  {
+    "width": 820,
+    "route": "/",
+    "result": "matching DOM and section-size metrics",
+    "horizontal_overflow": false
+  },
+  {
+    "width": 820,
+    "route": "about/",
+    "result": "matching DOM and section-size metrics",
+    "horizontal_overflow": false
+  },
+  {
+    "width": 820,
+    "route": "current-work/paintings/",
+    "result": "matching DOM and section-size metrics",
+    "horizontal_overflow": false
+  },
+  {
+    "width": 820,
+    "route": "blog/",
+    "result": "matching DOM and section-size metrics",
+    "horizontal_overflow": false
+  },
+  {
+    "width": 390,
+    "route": "/",
+    "result": "matching DOM and section-size metrics",
+    "horizontal_overflow": false
+  },
+  {
+    "width": 390,
+    "route": "about/",
+    "result": "matching DOM and section-size metrics",
+    "horizontal_overflow": false
+  },
+  {
+    "width": 390,
+    "route": "current-work/paintings/",
+    "result": "matching DOM and section-size metrics",
+    "horizontal_overflow": false
+  },
+  {
+    "width": 390,
+    "route": "blog/",
+    "result": "matching DOM and section-size metrics",
+    "horizontal_overflow": false
+  }
+]

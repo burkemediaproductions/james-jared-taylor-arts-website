@@ -1,12 +1,10 @@
 [build]
-  command = "npm run build"
+  command = "npm run build:preview"
   publish = "dist"
-
 [build.environment]
   NODE_VERSION = "22"
-
-[context.deploy-preview.environment]
   SITE_ENV = "staging"
-
-[context.branch-deploy.environment]
-  SITE_ENV = "staging"
+[[headers]]
+  for = "/serviceup/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow, noarchive"

@@ -1,0 +1,476 @@
+{
+  "pages": {
+    "home": [
+      [
+        "home-hero",
+        "jjt-home-hero",
+        "home-hero",
+        {
+          "eyebrow": "PAINTING & SCULPTURE",
+          "bottom_text": "The practice of looking, making, and finding new forms.",
+          "left_artwork_slug": "improvisatory-notation-project-enlargement-acrylic-on-wood-937",
+          "right_artwork_slug": "constellation-maquette-966",
+          "home_links": [
+            {
+              "label": "About",
+              "href": "about/",
+              "subtitle": "Artist & educator"
+            },
+            {
+              "label": "Paintings",
+              "href": "current-work/paintings/",
+              "subtitle": "Color, structure, place"
+            },
+            {
+              "label": "Sculptures",
+              "href": "current-work/sculptures/",
+              "subtitle": "Form, material, space"
+            },
+            {
+              "label": "Archive",
+              "href": "archive/",
+              "subtitle": "A continuing practice"
+            }
+          ]
+        }
+      ],
+      [
+        "home-about",
+        "jjt-image-text",
+        "home-introduction",
+        {
+          "eyebrow": "About the artist",
+          "heading": "Between the image and the object.",
+          "body": "James Jared Taylor is an American artist whose practice moves between painting and sculpture. Trained in sculpture and metal fabrication, he brings a construction-minded approach to images, materials, and space. After decades of living and teaching in Southern California, he relocated to Oregon in 2025, where he continues to work in both visual art and music.",
+          "image": "/assets/images/james-jared-taylor-portrait.jpeg",
+          "image_alt": "Photograph from the James Jared Taylor Arts website",
+          "button_label": "Meet James",
+          "button_destination": "/about/"
+        }
+      ],
+      [
+        "home-featured",
+        "jjt-featured-artwork",
+        "featured-section",
+        {
+          "eyebrow": "An ongoing practice",
+          "heading": "Selected work",
+          "summary": "Paintings and sculptural objects shaped by observation, memory, and the act of construction.",
+          "collection_slug": "current",
+          "button_label": "View all current work",
+          "button_destination": "/current-work/",
+          "featured_artwork_slugs": [
+            "improvisatory-notation-project-enlargement-acrylic-on-wood-937",
+            "constellation-maquette-966"
+          ]
+        }
+      ],
+      [
+        "home-quote",
+        "jjt-artist-quote",
+        "quote-section",
+        {
+          "quotation": "I see no difference between them since they are derived from the same sources. The work simply becomes a brief record of action, improvisation, intent, combined with the constant impulse to build or construct in two or three-dimensional space.",
+          "attribution": "James Jared Taylor / Artist statement"
+        }
+      ],
+      [
+        "home-journal",
+        "jjt-editorial-cta",
+        "journal-feature",
+        {
+          "eyebrow": "Notes from the studio",
+          "heading": "Looking, learning, making.",
+          "summary": "Thoughts on the work, the people who influence it, and the experiences that carry into the studio.",
+          "button_label": "Read the journal",
+          "button_destination": "/blog/"
+        }
+      ]
+    ],
+    "about": [
+      [
+        "about-intro",
+        "jjt-page-intro",
+        "page-intro",
+        {
+          "eyebrow": "Artist / Educator / Maker",
+          "heading": "About James Jared Taylor",
+          "summary": "An artist’s practice shaped by observation, experiment, craftsmanship, and the belief that painting and sculpture speak a common language."
+        }
+      ],
+      [
+        "about-bio",
+        "jjt-biography",
+        "about-layout",
+        {
+          "eyebrow": "Biography",
+          "heading": "A life in the arts.",
+          "summary": "James Jared Taylor is an American artist whose practice moves between painting and sculpture. Trained in sculpture and metal fabrication, he brings a construction-minded approach to images, materials, and space. After decades of living and teaching in Southern California, he relocated to Oregon in 2025, where he continues to work in both visual art and music.",
+          "portrait_image": "/assets/images/james-jared-taylor-portrait.jpeg",
+          "portrait_alt": "Photograph from the James Jared Taylor Arts website",
+          "paragraph_2": "Originally from Cincinnati, Ohio, Taylor earned a BFA from the Kansas City Art Institute in 1981 and an MFA from Rutgers University’s Mason Gross School of the Arts in 1986. He apprenticed and worked at the Johnson Atelier, developing expertise in bronze casting and metal fabrication.",
+          "paragraph_3": "His work has appeared in solo and group exhibitions across the United States and is represented in public, private, and corporate collections. An ACI Artists and Writers Residency in Corciano, Italy in 2022 further informed an evolving studio practice.",
+          "paragraph_4": "Alongside making art, Taylor spent 32 years as an educator, teaching visual art and art history at secondary and college levels before retiring from teaching in 2020."
+        }
+      ],
+      [
+        "about-statement",
+        "jjt-artist-statement",
+        "statement-section",
+        {
+          "eyebrow": "Artist statement",
+          "heading": "In two dimensions. In three dimensions.",
+          "quotation": "I see no difference between them since they are derived from the same sources. The work simply becomes a brief record of action, improvisation, intent, combined with the constant impulse to build or construct in two or three-dimensional space.",
+          "closing": "Rather than work toward a fixed result, the studio remains a place for trial and error, evolution, and discovery."
+        }
+      ],
+      [
+        "about-education",
+        "jjt-education",
+        "education-section",
+        {
+          "eyebrow": "Training & practice",
+          "heading": "Selected education",
+          "education_ids": [
+            "1986",
+            "1981",
+            "1980"
+          ],
+          "supporting_text": "Selected exhibitions include Coachella Valley Art Center (2022), Joshua Tree Public Library (2017), and numerous exhibitions throughout the United States."
+        }
+      ],
+      [
+        "about-cta",
+        "jjt-editorial-cta",
+        "closing-note",
+        {
+          "summary": "See how this practice unfolds in the work.",
+          "button_label": "Explore current work",
+          "button_destination": "/current-work/"
+        }
+      ]
+    ],
+    "current-work": [
+      [
+        "current-intro",
+        "jjt-page-intro",
+        "page-intro",
+        {
+          "eyebrow": "Selected works",
+          "heading": "Current work",
+          "summary": "The ideas taking shape now: painting and sculpture in an ongoing conversation with form, structure, and place."
+        }
+      ],
+      [
+        "current-categories",
+        "jjt-category-grid",
+        "category-grid",
+        {
+          "collection_slug": "current"
+        }
+      ],
+      [
+        "current-work-closing",
+        "jjt-editorial-cta",
+        "closing-note",
+        {
+          "summary": "Across media, an enduring interest in making and remaking.",
+          "button_label": "About the artist",
+          "button_destination": "/about/"
+        }
+      ]
+    ],
+    "archive": [
+      [
+        "archive-intro",
+        "jjt-page-intro",
+        "page-intro",
+        {
+          "eyebrow": "Selected works",
+          "heading": "Archive",
+          "summary": "Selected work from earlier periods of a practice spanning decades, materials, and ways of seeing."
+        }
+      ],
+      [
+        "archive-categories",
+        "jjt-category-grid",
+        "category-grid",
+        {
+          "collection_slug": "archive"
+        }
+      ],
+      [
+        "archive-closing",
+        "jjt-editorial-cta",
+        "closing-note",
+        {
+          "summary": "Across media, an enduring interest in making and remaking.",
+          "button_label": "About the artist",
+          "button_destination": "/about/"
+        }
+      ]
+    ],
+    "blog": [
+      [
+        "journal-intro",
+        "jjt-page-intro",
+        "page-intro",
+        {
+          "eyebrow": "Journal / Reflections",
+          "heading": "Notes from the studio",
+          "summary": "Ideas, influences, and observations gathered across a life spent making and teaching art."
+        }
+      ],
+      [
+        "journal-list",
+        "jjt-journal-list",
+        "journal-grid",
+        {
+          "source_type": "journal-post"
+        }
+      ],
+      [
+        "blog-closing",
+        "jjt-editorial-cta",
+        "closing-note",
+        {
+          "button_label": "About James",
+          "button_destination": "/about/",
+          "summary": "Some ideas begin in a sketchbook. Others begin in conversation."
+        }
+      ]
+    ],
+    "links": [
+      [
+        "links-intro",
+        "jjt-page-intro",
+        "page-intro",
+        {
+          "eyebrow": "Elsewhere / In conversation",
+          "heading": "Links",
+          "summary": "Selected profiles, conversations, and ways to stay connected with James Jared Taylor and his work."
+        }
+      ],
+      [
+        "links-list",
+        "jjt-links-list",
+        "links-list",
+        {
+          "source_type": "artist-link"
+        }
+      ],
+      [
+        "links-contact",
+        "jjt-contact",
+        "contact-section",
+        {
+          "eyebrow": "Connect",
+          "heading": "A conversation begins here.",
+          "summary": "For inquiries about artwork, exhibitions, or commissions, you are welcome to reach out."
+        }
+      ]
+    ],
+    "current-work/paintings": [
+      [
+        "current-work-paintings-intro",
+        "jjt-page-intro",
+        "page-intro",
+        {
+          "heading": "Paintings",
+          "collection_slug": "current",
+          "summary": "A selection of recent and ongoing paintings exploring geometry, constructed space, color, and place."
+        }
+      ],
+      [
+        "current-work-paintings-grid",
+        "jjt-gallery-grid",
+        "artwork-grid",
+        {
+          "collection_slug": "current",
+          "category": "painting"
+        }
+      ],
+      [
+        "current-work-paintings-closing",
+        "jjt-editorial-cta",
+        "closing-note",
+        {
+          "button_label": "Explore the archive",
+          "button_destination": "/archive/",
+          "summary": "Art continues in conversation with what came before."
+        }
+      ]
+    ],
+    "current-work/sculptures": [
+      [
+        "current-work-sculptures-intro",
+        "jjt-page-intro",
+        "page-intro",
+        {
+          "heading": "Sculptures",
+          "collection_slug": "current",
+          "summary": "A selection of recent sculptural work investigating material, form, and structure."
+        }
+      ],
+      [
+        "current-work-sculptures-grid",
+        "jjt-gallery-grid",
+        "artwork-grid",
+        {
+          "collection_slug": "current",
+          "category": "sculpture"
+        }
+      ],
+      [
+        "current-work-sculptures-closing",
+        "jjt-editorial-cta",
+        "closing-note",
+        {
+          "button_label": "Explore the archive",
+          "button_destination": "/archive/",
+          "summary": "Art continues in conversation with what came before."
+        }
+      ]
+    ],
+    "archive/paintings": [
+      [
+        "archive-paintings-intro",
+        "jjt-page-intro",
+        "page-intro",
+        {
+          "heading": "Paintings",
+          "collection_slug": "archive",
+          "summary": "A selection of earlier paintings exploring geometry, constructed space, color, and place."
+        }
+      ],
+      [
+        "archive-paintings-grid",
+        "jjt-gallery-grid",
+        "artwork-grid",
+        {
+          "collection_slug": "archive",
+          "category": "painting"
+        }
+      ],
+      [
+        "archive-paintings-closing",
+        "jjt-editorial-cta",
+        "closing-note",
+        {
+          "button_label": "View current work",
+          "button_destination": "/current-work/",
+          "summary": "Art continues in conversation with what came before."
+        }
+      ]
+    ],
+    "archive/sculptures": [
+      [
+        "archive-sculptures-intro",
+        "jjt-page-intro",
+        "page-intro",
+        {
+          "heading": "Sculptures",
+          "collection_slug": "archive",
+          "summary": "A selection of earlier sculptural work investigating material, form, and structure."
+        }
+      ],
+      [
+        "archive-sculptures-grid",
+        "jjt-gallery-grid",
+        "artwork-grid",
+        {
+          "collection_slug": "archive",
+          "category": "sculpture"
+        }
+      ],
+      [
+        "archive-sculptures-closing",
+        "jjt-editorial-cta",
+        "closing-note",
+        {
+          "button_label": "View current work",
+          "button_destination": "/current-work/",
+          "summary": "Art continues in conversation with what came before."
+        }
+      ]
+    ]
+  },
+  "components": {
+    "jjt-home-hero": [
+      "eyebrow",
+      "bottom_text",
+      "left_artwork_slug",
+      "right_artwork_slug"
+    ],
+    "jjt-image-text": [
+      "eyebrow",
+      "heading",
+      "body",
+      "image",
+      "image_alt",
+      "button_label",
+      "button_destination"
+    ],
+    "jjt-featured-artwork": [
+      "eyebrow",
+      "heading",
+      "summary",
+      "collection_slug",
+      "button_label",
+      "button_destination"
+    ],
+    "jjt-artist-quote": [
+      "quotation",
+      "attribution"
+    ],
+    "jjt-editorial-cta": [
+      "eyebrow",
+      "heading",
+      "summary",
+      "button_label",
+      "button_destination"
+    ],
+    "jjt-page-intro": [
+      "eyebrow",
+      "heading",
+      "summary",
+      "collection_slug"
+    ],
+    "jjt-biography": [
+      "eyebrow",
+      "heading",
+      "summary",
+      "portrait_image",
+      "portrait_alt"
+    ],
+    "jjt-artist-statement": [
+      "eyebrow",
+      "heading",
+      "quotation",
+      "closing"
+    ],
+    "jjt-education": [
+      "eyebrow",
+      "heading",
+      "education_ids"
+    ],
+    "jjt-category-grid": [
+      "collection_slug"
+    ],
+    "jjt-gallery-grid": [
+      "collection_slug",
+      "category"
+    ],
+    "jjt-journal-list": [
+      "source_type"
+    ],
+    "jjt-links-list": [
+      "source_type"
+    ],
+    "jjt-contact": [
+      "eyebrow",
+      "heading",
+      "summary"
+    ]
+  }
+}

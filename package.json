@@ -3,6 +3,16 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "scripts": {"build":"node scripts/build.mjs", "dev":"node scripts/dev.mjs", "check":"node scripts/check.mjs"},
-  "engines": {"node": ">=20"}
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/dev.mjs",
+    "check": "node scripts/check.mjs",
+    "build:serviceup": "node scripts/build-serviceup.mjs",
+    "build:preview": "node scripts/build.mjs && node scripts/build-serviceup.mjs",
+    "dev:serviceup": "node scripts/dev.mjs --serviceup",
+    "audit:serviceup": "python scripts/audit-serviceup-static.py && python scripts/test-visual-parity.py"
+  },
+  "engines": {
+    "node": ">=20"
+  }
 }

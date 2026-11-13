@@ -50,5 +50,33 @@
     }
   ],
   "portrait_image": "/assets/images/james-jared-taylor-portrait.jpeg",
-  "portrait_alt": "Photograph from the James Jared Taylor Arts website"
+  "portrait_alt": "Photograph from the James Jared Taylor Arts website",
+  "home_left_artwork_slug": "improvisatory-notation-project-enlargement-acrylic-on-wood-937",
+  "home_right_artwork_slug": "constellation-maquette-966",
+  "navigation": [
+    {
+      "label": "Home",
+      "url": "/"
+    },
+    {
+      "label": "About",
+      "url": "/about/"
+    },
+    {
+      "label": "Current work",
+      "url": "/current-work/"
+    },
+    {
+      "label": "Archive",
+      "url": "/archive/"
+    },
+    {
+      "label": "Blog",
+      "url": "/blog/"
+    },
+    {
+      "label": "Links",
+      "url": "/links/"
+    }
+  ]
 }
