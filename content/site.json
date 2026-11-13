@@ -1,0 +1,54 @@
+{
+  "tenant_slug": "james-jared-taylor",
+  "name": "James Jared Taylor",
+  "domain": "https://jamesjaredtaylorarts.com",
+  "tagline": "Painting, sculpture & a life in the arts",
+  "email": "jamesjaredtaylorarts@gmail.com",
+  "location": "Eugene, Oregon",
+  "instagram": "https://www.instagram.com/jamesjaredtaylorarts/",
+  "facebook": "https://www.facebook.com/jamesjaredtaylorarts",
+  "intro": "An ongoing exploration of form, place, improvisation, and the space between painting and sculpture.",
+  "statement": "I see no difference between them since they are derived from the same sources. The work simply becomes a brief record of action, improvisation, intent, combined with the constant impulse to build or construct in two or three-dimensional space.",
+  "about": "James Jared Taylor is an American artist whose practice moves between painting and sculpture. Trained in sculpture and metal fabrication, he brings a construction-minded approach to images, materials, and space. After decades of living and teaching in Southern California, he relocated to Oregon in 2025, where he continues to work in both visual art and music.",
+  "education": [
+    {
+      "degree": "Master of Fine Arts",
+      "school": "Rutgers University, Mason Gross School of the Arts",
+      "year": "1986"
+    },
+    {
+      "degree": "Bachelor of Fine Arts",
+      "school": "Kansas City Art Institute",
+      "year": "1981"
+    },
+    {
+      "degree": "Studies",
+      "school": "New York Studio School",
+      "year": "1980"
+    }
+  ],
+  "links": [
+    {
+      "label": "Artsy",
+      "description": "Selected work and artist profile",
+      "url": "https://www.artsy.net/artist/james-jared-taylor"
+    },
+    {
+      "label": "Shoutout SoCal",
+      "description": "Conversation with James Jared Taylor",
+      "url": "https://shoutoutsocal.com/meet-james-jared-taylor-sculptor-and-painter/"
+    },
+    {
+      "label": "CanvasRebel",
+      "description": "On making art and teaching",
+      "url": "https://canvasrebel.com/meet-james-jared-taylor/"
+    },
+    {
+      "label": "The Desert Sun",
+      "description": "Coverage of the 2022 exhibition",
+      "url": "https://www.desertsun.com/story/life/2022/10/02/dhs-artist-brings-minimalist-exhibition-coachella-valley-art-center/8073839001/"
+    }
+  ],
+  "portrait_image": "/assets/images/james-jared-taylor-portrait.jpeg",
+  "portrait_alt": "Photograph from the James Jared Taylor Arts website"
+}

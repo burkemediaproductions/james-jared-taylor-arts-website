@@ -1,0 +1,18 @@
+{
+  "source_attachments": 584,
+  "matched_media": 584,
+  "artworks_in_galleries": 315,
+  "supporting_or_needs_review": 267,
+  "conversion_failures": [
+    [
+      "700",
+      "cannot identify image file <_io.BytesIO object at 0x7fb7682c2390>"
+    ],
+    [
+      "701",
+      "cannot identify image file <_io.BytesIO object at 0x7fb7682c2390>"
+    ]
+  ],
+  "posts_migrated": 9,
+  "classification_note": "Rule-based classification from WordPress captions and titles. Current vs archive assignment uses upload year as provisional proxy and requires artist review. All WordPress attachment records retained in wordpress-media-inventory.json."
+}
