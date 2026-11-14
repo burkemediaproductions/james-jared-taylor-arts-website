@@ -10,7 +10,8 @@
     "build:serviceup": "node scripts/build-serviceup.mjs",
     "build:preview": "node scripts/build.mjs && node scripts/build-serviceup.mjs",
     "dev:serviceup": "node scripts/dev.mjs --serviceup",
-    "audit:serviceup": "python scripts/audit-serviceup-static.py && python scripts/test-visual-parity.py"
+    "audit:serviceup": "python scripts/audit-serviceup-static.py && python scripts/test-visual-parity.py",
+    "build:live": "node scripts/build-serviceup.mjs"
   },
   "engines": {
     "node": ">=20"

@@ -71,12 +71,12 @@ for(const item of posts){if(!Array.isArray(item.body))throw Error(`Journal ${ite
 const contentDir=path.join(ROOT,'.serviceup-runtime');
 fs.mkdirSync(contentDir,{recursive:true});
 for(const [name,value] of Object.entries({site,works,posts}))fs.writeFileSync(path.join(contentDir,name+'.json'),JSON.stringify(value));
-const output='dist/serviceup';
-const result=spawnSync(process.execPath,['scripts/build.mjs'],{cwd:ROOT,stdio:'inherit',env:{...process.env,CONTENT_DIR:contentDir,OUTPUT_DIR:output,BASE_PATH:'serviceup',SITE_ENV:'staging'}});
+const output='dist';
+const result=spawnSync(process.execPath,['scripts/build.mjs'],{cwd:ROOT,stdio:'inherit',env:{...process.env,CONTENT_DIR:contentDir,OUTPUT_DIR:output,BASE_PATH:'',SITE_ENV:process.env.SITE_ENV||'staging'}});
 if(result.status!==0)throw Error('ServiceUp static build failed. No new deployment.');
-// Do not overwrite the original root site; build root separately and retain subfolder.
+// Production root build: the entire output is generated from ServiceUp; the original source content remains untouched.
 const target=path.join(ROOT,output);
 if(!fs.existsSync(path.join(target,'index.html')))throw Error('Missing generated ServiceUp homepage');
 const check=spawnSync(process.execPath,['scripts/check.mjs'],{cwd:ROOT,stdio:'inherit',env:{...process.env,CHECK_DIR:output}});
 if(check.status!==0)throw Error('ServiceUp static validation failed.');
-console.log(`ServiceUp tenant ${TENANT}: ${works.length} artworks, ${posts.length} posts, ${pages.length} pages; published into /serviceup/`);
+console.log(`ServiceUp tenant ${TENANT}: ${works.length} artworks, ${posts.length} posts, ${pages.length} pages; published at /`);
